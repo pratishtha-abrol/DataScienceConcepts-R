@@ -1,0 +1,28 @@
+#STATISTICAL MODELLING
+
+used in data analysis for :
+Identifying patterns
+Classifying events
+Untangling multiple influences
+Assessing strength of evidence
+
+A statistical model is essentially a representation for a purpose, that is, it stands for something in the real world
+
+-Type of variables:
+Explanatory variables : Variables which define the response variable
+X1, X2, X3, X4...
+Response variable : The one whose content we are trying to model using explanatory variables. Ther is only one response variable in one model
+Y
+
+-Type of model depending upon type of variable:
+    ~Explanatory variables :
+        all continous: Regression
+        all categorial: Analysis of varianc (Anova)
+        mixed variables: Analysis of covariance (Ancova)
+    ~Response variable (depending on kind of data) :
+        continous: Normal Regression, Anova, Ancova
+        proportion: Logistic Regression
+        count: Log linear models
+        binary: Binary logistic analysis
+        time-at-death: Survival analysis
+
